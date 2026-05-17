@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "PachangaApp.json/2026-05-17T09-16-59-456Z-2982cy.json",
+  "profileFile": "PachangaApp.json",
+  "createdAt": "2026-05-17T09:16:59.456Z",
+  "source": "bulk",
+  "operation": {
+    "target": "primary",
+    "mode": "fill-only",
+    "source": "bulk",
+    "changedPhases": 11
+  },
+  "operationSummary": "Set all primary phases: 11 primary, 0 fallback",
+  "beforeRaw": "{\n  \"models\": {},\n  \"fallback\": {\n    \"sdd-apply\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-archive\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-design\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-explore\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-init\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-onboard\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-propose\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-spec\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-tasks\": \"opencode/deepseek-v4-flash-free\",\n    \"sdd-verify\": \"opencode/deepseek-v4-flash-free\"\n  }\n}",
+  "preview": {
+    "models": {},
+    "fallback": {
+      "sdd-apply": "opencode/deepseek-v4-flash-free",
+      "sdd-archive": "opencode/deepseek-v4-flash-free",
+      "sdd-design": "opencode/deepseek-v4-flash-free",
+      "sdd-explore": "opencode/deepseek-v4-flash-free",
+      "sdd-init": "opencode/deepseek-v4-flash-free",
+      "sdd-onboard": "opencode/deepseek-v4-flash-free",
+      "sdd-propose": "opencode/deepseek-v4-flash-free",
+      "sdd-spec": "opencode/deepseek-v4-flash-free",
+      "sdd-tasks": "opencode/deepseek-v4-flash-free",
+      "sdd-verify": "opencode/deepseek-v4-flash-free"
+    }
+  }
+}
