@@ -215,54 +215,61 @@
     }
   },
   "plugin": [
+    // "context-mode",
     "@tarquinen/opencode-dcp",
     "@simonwjackson/opencode-direnv",
     "@franlol/opencode-md-table-formatter",
-    "@spoons-and-mirrors/subtask2"
+    "./plugins/ponytail.mjs"
+    // "@spoons-and-mirrors/subtask2"
   ],
+    "lsp": true,
   "mcp": {
-    "exa": {
-      "type": "remote",
-      "url": "https://mcp.exa.ai/mcp",
-      "enabled": true
-    },
     "gh_grep": {
+      "enabled": false,
       "type": "remote",
-      "url": "https://mcp.grep.app",
-      "enabled": true
+      "url": "https://mcp.grep.app"
     },
     "code-review-graph": {
+      "enabled": false,
       "command": [
         "code-review-graph",
         "serve",
         "--tools",
         "query_graph_tool,semantic_search_nodes_tool,detect_changes_tool"
       ],
-      "enabled": true,
       "type": "local"
     },
     "codegraphcontext": {
+      "enabled": false,
       "type": "local",
       "command": [
         "cgc",
         "mcp",
         "start"
-      ],
-      "enabled": true
+      ]
     },
     "context7": {
-      "enabled": true,
+      "enabled": false,
       "type": "remote",
       "url": "https://mcp.context7.com/mcp"
     },
     "engram": {
+      "enabled": false,
       "command": [
         "/opt/homebrew/bin/engram",
         "mcp",
         "--tools=agent"
       ],
-      "enabled": true,
       "type": "local"
+    },
+    "codegraph": {
+      "type": "local",
+      "command": [
+        "codegraph",
+        "serve",
+        "--mcp"
+      ],
+      "enabled": false
     }
   },
   "permission": {

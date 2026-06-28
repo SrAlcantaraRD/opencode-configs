@@ -19,6 +19,7 @@
     "llama-2": "Xenova/llama2-tokenizer",
     "code-llama": "Xenova/llama-code-tokenizer",
     "deepseek-r1": "deepseek-ai/DeepSeek-R1",
+    "deepseek-v4-flash-free": "deepseek-ai/DeepSeek-V3",
     "deepseek-v3": "deepseek-ai/DeepSeek-V3",
     "deepseek-v2": "deepseek-ai/DeepSeek-V2",
     "mistral-large": "Xenova/mistral-tokenizer-v3",
@@ -32,6 +33,7 @@
     "meta": "Xenova/Meta-Llama-3.1-Tokenizer",
     "mistral": "Xenova/mistral-tokenizer-v3",
     "deepseek": "deepseek-ai/DeepSeek-V3",
+    "opencode": "deepseek-ai/DeepSeek-V3",
     "google": "google/gemma-2-9b-it"
   }
 }
