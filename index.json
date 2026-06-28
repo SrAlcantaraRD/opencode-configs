@@ -1,9 +1,11 @@
 {
   "name": "personal",
-  "components": {
-    "config": {
+  "version": "1.0.0",
+  "components": [
+    {
       "name": "config",
-      "url": "https://github.com/SrAlcantaraRD/opencode-configs"
+      "description": "Mi configuración personalizada de OpenCode",
+      "url": "https://raw.githubusercontent.com/SrAlcantaraRD/opencode-configs/main/configs/config.tar.gz"
     }
-  }
+  ]
 }
