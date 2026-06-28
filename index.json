@@ -1,0 +1,9 @@
+{
+  "name": "personal",
+  "components": {
+    "config": {
+      "name": "config",
+      "url": "https://github.com/SrAlcantaraRD/opencode-configs"
+    }
+  }
+}
